@@ -1,0 +1,60 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-section h1{
+    color: white;
+}
+.logo a:hover{
+    display: block;
+    text-decoration: none;
+
+}
+.header-section{
+    background-color: #8846a0bc;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar span{
+    color: rgb(61, 5, 84);
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar .nav-item .active{
+    color: white;
+}
+
+.navbar span:hover{
+    color: #fdf363;
+}
+
+.Login-Form .btn{
+    background-color: #fdf363;
+    padding: 10px;
+    margin-left:45% ;
+
+}
+.Login-Form .btn a{
+    color: black;
+}
+.Login-Form .btn a:hover{
+    text-decoration: none;
+}
+
+.footer-section {
+    padding: 10% 0 7% 7%;
+    margin-top: 10%;
+    background-image: linear-gradient(to bottom right, rgba(255, 76, 130, 0.477),rgba(255, 161, 19, 0.648)),url('images/footer-img.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-section h1{
+    color: black;
+}
+.footer-section h1:hover{
+    text-decoration: none;
+}

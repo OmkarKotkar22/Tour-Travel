@@ -1,0 +1,83 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-section h1{
+    color: white;
+}
+.logo a:hover{
+    display: block;
+    text-decoration: none;
+
+}
+.header-section{
+    background-color: #8846a0bc;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar span{
+    color: rgb(61, 5, 84);
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar .nav-item .active{
+    color: white;
+}
+
+.navbar span:hover{
+    color: #fdf363;
+}
+
+.booking{
+    background-image: url('images/offer-img-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+
+
+.inputBox label{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(102, 95, 95);
+}
+.inputBox input{
+    height: 40px;
+    width: 100%;
+}
+
+.inputBox select{
+    height: 40px;
+    width: 100%;
+}
+.booking .btn{
+    background-color: #fffab7;
+    padding: 10px;
+    /* margin-left: 45%; */
+}
+
+.booking h1{
+    color: #ffffff;
+}
+
+.footer-section {
+    padding: 10% 0 7% 7%;
+    margin-top: 10%;
+    background-image: linear-gradient(to bottom right, rgba(255, 76, 130, 0.477),rgba(255, 161, 19, 0.648)),url('images/footer-img.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-section h1{
+    color: black;
+}
+.footer-section h1:hover{
+    text-decoration: none;
+}
